@@ -55,7 +55,23 @@
         color: #ff9f1c;
     }
 
+    .button__color {
+        background-color: #2ec4b6;
+        border: none;
+        margin-left: 19px;
+    }
 
+    .input__size {
+        width: 250px !important;
+    }
+
+    .form__width {
+        width: 367px;
+    }
+
+    .address__center {
+        margin-top: 15px;
+    }
   </style>
 
 </head>
@@ -69,8 +85,8 @@
             <div class='col d-flex justify-content-end'>
                 <nav class="nav">
                     <a class="nav-link active" href="#">Home</a>
-                    <a class="nav-link" href="#">Adventure</a>
-                    <a class="nav-link" href="#">Classic Top 10</a>
+                    <a class="nav-link" href="bangkok.html">Adventure</a>
+                    <a class="nav-link" href="newYork1.html">Classic Top 10</a>
                 </nav>
             </div>
         </div>
@@ -81,10 +97,10 @@
                 <img src="./assets/promo.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="./assets/ny.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="..." class="d-block w-100" alt="...">
+                <img src="./assets/promo_bk.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -97,13 +113,28 @@
             </a>
         </div>
 
+        <div class='row m-0 py-5'>
+            <div class="col d-flex justify-content-center align-items-center p-0">
+            <div class="text-center" id="newsletter">
+                    <h2 class="section-header">Have fun with us</h2>
+                    <p>Leave us your mail and get the instructions for your next trip</p>
+                    <form class="form-inline form__width mx-auto">
+                        <input type="email" placeholder="you@gmail.com" class="form-control input__size">
+                        <input type="submit" value="Subscribe" class="button__color btn btn-primary btn-bordered btn-bordered-primary">
+                    </form>
+                </div>
+            </div>
+        </div>
+
+
+
         <div class='row footer m-0'>
             <div class="col d-flex justify-content-center align-items-center p-0">
                 <i class="fab fa-instagram iconSize"></i>
                 <i class="fab fa-facebook iconSize"></i>
                 <i class="fab fa-twitter iconSize"></i>
             </div>
-            <div class="col d-flex justify-content-center align-items-center">
+            <div class="col d-flex justify-content-center align-items-center address__center">
                 <div>
                     <address class="text-center">Copyright company name</adress>
                     <address class="text-center">Tel. 666666666</address>
@@ -113,4 +144,10 @@
     </div>
 
 </body>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script>
+       $('.carousel').carousel()
+</script>
 </html>
