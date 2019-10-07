@@ -2,81 +2,92 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Template</title>
-  <link rel="stylesheet" href="css/tailandia.css">
-  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
-  <link href="https://fonts.googleapis.com/css?family=Lato%7COswald&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Template</title>
+    <link rel="stylesheet" href="css/tailandia.css">
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Lato%7COswald&display=swap" rel="stylesheet">
 
-  <style>
-      .navbar {
-        background-color: #2ec4b6;
-      }
-      .navbar img {
-          width: 200px;
-          background-color: white;
-      }
-      .navbar nav {
-          display: flex;
-          flex-direction: row;
-          justify-content: flex-end;
-        width: 100%;
-        transition: background-color 300ms;
-      }
-      .navbar a {
-        padding: .8% 2%;
-        color: #fff;
-        font-family: 'Oswald', sans-serif;
-        font-size: 1.8em;
-        text-decoration: none;
-        transition: color 300ms, background-color 300ms;
-        border-right: 3px solid #fff; 
-    }
-    .navbar a:last-child {
-        border-right: none; 
-    }
-    .navbar a:hover {
-        background-color: #2ec4b6;
-    }
-    .footer {
-      color: #fff;
-      background-color: #2ec4b6;
-    }
-    .footer i {
-      font-size: 2em;
-      padding: 1%;
-      cursor: pointer;
-      transition: color 300ms;
-    }
-    .footer i:hover {
-        color: #ff9f1c;
-    }
+    <!--ESTILOS-->
+    <style>
+        .navbar {
+            background-color: #2ec4b6;
+        }
 
-    .button__color {
-        background-color: #2ec4b6;
-        border: none;
-        margin-left: 19px;
-    }
+        .navbar img {
+            width: 200px;
+            background-color: white;
+        }
 
-    .input__size {
-        width: 250px !important;
-    }
+        .navbar nav {
+            display: flex;
+            flex-direction: row;
+            justify-content: flex-end;
+            width: 100%;
+            transition: background-color 300ms;
+        }
 
-    .form__width {
-        width: 367px;
-    }
+        .navbar a {
+            padding: .8% 2%;
+            color: #fff;
+            font-family: 'Oswald', sans-serif;
+            font-size: 1.8em;
+            text-decoration: none;
+            transition: color 300ms, background-color 300ms;
+            border-right: 3px solid #fff;
+        }
 
-    .address__center {
-        margin-top: 15px;
-    }
-  </style>
+        .navbar a:last-child {
+            border-right: none;
+        }
+
+        .navbar a:hover {
+            background-color: #2ec4b6;
+        }
+
+        .footer {
+            color: #fff;
+            background-color: #2ec4b6;
+        }
+
+        .footer i {
+            font-size: 2em;
+            padding: 1%;
+            cursor: pointer;
+            transition: color 300ms;
+        }
+
+        .footer i:hover {
+            color: #ff9f1c;
+        }
+
+        .button__color {
+            background-color: #2ec4b6;
+            border: none;
+            margin-left: 19px;
+        }
+
+        .input__size {
+            width: 250px !important;
+        }
+
+        .form__width {
+            width: 367px;
+        }
+
+        .address__center {
+            margin-top: 15px;
+        }
+    </style>
 
 </head>
 
 <body>
+    <!--Barra del menu-->
     <div class='container mw-100 p-0 m-0'>
         <div class='row navbar d-flex justify-content-between m-0'>
             <div class='col p-0 logo'>
@@ -90,17 +101,18 @@
                 </nav>
             </div>
         </div>
-        
+
+        <!--Carrousel-->
         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                <img src="./assets/promo.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/promo.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="./assets/ny.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/ny.jpg" class="d-block w-100" alt="...">
                 </div>
                 <div class="carousel-item">
-                <img src="./assets/promo_bk.jpg" class="d-block w-100" alt="...">
+                    <img src="./assets/promo_bk.jpg" class="d-block w-100" alt="...">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
@@ -113,20 +125,22 @@
             </a>
         </div>
 
+        <!--Form-->
         <div class='row m-0 py-5'>
             <div class="col d-flex justify-content-center align-items-center p-0">
-            <div class="text-center" id="newsletter">
+                <div class="text-center" id="newsletter">
                     <h2 class="section-header">Have fun with us</h2>
                     <p>Leave us your mail and get the instructions for your next trip</p>
                     <form class="form-inline form__width mx-auto">
                         <input type="email" placeholder="you@gmail.com" class="form-control input__size">
-                        <input type="submit" value="Subscribe" class="button__color btn btn-primary btn-bordered btn-bordered-primary">
+                        <input type="submit" value="Subscribe"
+                            class="button__color btn btn-primary btn-bordered btn-bordered-primary">
                     </form>
                 </div>
             </div>
         </div>
 
-
+        <!--Footer-->
 
         <div class='row footer m-0'>
             <div class="col d-flex justify-content-center align-items-center p-0">
@@ -137,17 +151,24 @@
             <div class="col d-flex justify-content-center align-items-center address__center">
                 <div>
                     <address class="text-center">Copyright company name</adress>
-                    <address class="text-center">Tel. 666666666</address>
+                        <address class="text-center">Tel. 666666666</address>
                 </div>
             </div>
         </div>
     </div>
 
 </body>
-<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+    crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+    crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+    crossorigin="anonymous"></script>
 <script>
-       $('.carousel').carousel()
+    $('.carousel').carousel()
 </script>
+
 </html>
